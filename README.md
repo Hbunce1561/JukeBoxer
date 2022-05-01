@@ -11,4 +11,6 @@ tunes.add(new Oldie("Tom Petty", "Free Fallin", "Full Moon Fever", "Classic Rock
 
 Both do similar things, track method needs the genre to be in the enumeration and seperates out first and last name in artist name, the tune method does not.
 
+These both need to be pointed at the song file (ie "./song.mp3") to actually play the song.
+
 Song length is a deprecated variable, no longer used in this version, however can be reimplemented with thread.sleep().
